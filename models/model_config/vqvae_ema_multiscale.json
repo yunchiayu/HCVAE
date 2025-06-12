@@ -1,0 +1,30 @@
+{
+    "vae": {
+        "in_channels": 3,
+        "hidden_channels": 128,
+        "out_channels": 3,
+        "num_residual_layers": 2,
+        "residual_channels": 32
+    },
+    "quantizer": {
+        "vocab_size": 512,
+        "embedding_dim": 64,
+        "beta": 0.25,
+        "use_ema": true,
+        "ema_decay": 0.99,
+        "ema_eps": 1e-05,
+        "use_multiscale": true,
+        "v_patch_nums": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "quant_resi": 0.5,
+        "num_patch_per_alphaconv": 1
+    }
+}

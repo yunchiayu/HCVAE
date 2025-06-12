@@ -1,1 +1,1 @@
-# HCVAE
+# Hierarchical Clustering Vector Quantization for Coarse-to-Fine Image Reconstruction
